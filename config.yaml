@@ -1,0 +1,13 @@
+paths:
+  input_dir: "/Users/sonainjamil/Library/CloudStorage/OneDrive-SharedLibraries-UniversityofEasternFinland/Kasem Amnuayrotchanachinda - Kasame_Industial_Project/Spectral_bin/Ref"                # Directory for spectral input images (stitching)
+  stitched_output: "/Users/sonainjamil/Library/CloudStorage/OneDrive-UniversityofEasternFinland/Output/stitched/stitched_image.hdr"  # Path to save stitched image
+  pca_output_dir: "/Users/sonainjamil/Library/CloudStorage/OneDrive-UniversityofEasternFinland/Output/pca_output"      # Directory for saving PCA components
+
+parameters:
+  stitching:
+    num_columns: 8                       # Number of columns for stitching
+  pca:
+    n_components: 20                     # Number of PCA components to keep
+    transformation: "first_derivative"    # Options: "none", "standard_normal", "first_derivative", "second_derivative"
+    lower_percentile: 2                  # Percentile for contrast enhancement
+    upper_percentile: 98
