@@ -70,7 +70,7 @@ To run each part of the pipeline, specify the configuration file and task (`stit
 Run the stitching process to create a stitched hyperspectral image from the input directory:
 
 ```bash
-python main.py config.yaml stitch
+python3 main.py config.yaml stitch
 ```
 
 The stitched image will be saved at the location specified in `config.yaml` under `stitched_output`.
