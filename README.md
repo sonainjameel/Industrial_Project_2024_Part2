@@ -1,5 +1,5 @@
 
-# Industrial Project Part 2: Stitching and PCA
+# Industrial Project Part 2: Stitching and PCA 
 
 This project is designed to process spectral image data by performing image stitching and Principal Component Analysis (PCA). The project enables the assembly of multiple spectral images into a single, stitched image and performs dimensionality reduction on the stitched data using PCA. 
 
